@@ -24,4 +24,4 @@ if __name__ == "__main__":
             print("{} {} {} = {}".format(a, argv[2], b, mul(a, b)))
 
         if argv[2] == '/':
-            print("{} {} {} = {}".format(a, argv[2], b, mul(a, b)))
+            print("{} {} {} = {}".format(a, argv[2], b, div(a, b)))
