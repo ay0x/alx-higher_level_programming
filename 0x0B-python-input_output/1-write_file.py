@@ -5,7 +5,7 @@
 
 def write_file(filename="", text=""):
     """
-    Reads data from a file source
+    Write data to a file source
 
     Args:
         filename (str, optional): The file source.
