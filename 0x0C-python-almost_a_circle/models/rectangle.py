@@ -128,7 +128,7 @@ class Rectangle(Base):
                 default_values[default_list.index(key)] = value
 
         self.id, self.__width, self.__height, self.x, self.y = default_values
-    
+
     def to_dictionary(self):
         """Returns the dictionary representation of a Rectangle"""
         return {
